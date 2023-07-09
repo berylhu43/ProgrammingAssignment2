@@ -4,12 +4,20 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
+        y<<-solve(x)
 
 }
 
 
 ## Write a short comment describing this function
 
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+cacheSolve<-function(m=matrix()){
+  if (all.equal(m,x)==TRUE){
+  y
+  }
+  else {
+    solve(m)
+  }
 }
+        ## Return a matrix that is the inverse of 'x'
+
